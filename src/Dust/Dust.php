@@ -56,7 +56,7 @@ class Dust implements \Serializable {
         if (is_array($options)) {
             if (isset($options['extension'])) {
                 $extension = $options['extension'];
-                $this->_extension = $extension{0} === '.' ? substr($extension, 1) : $extension;
+                $this->_extension = $extension[0] === '.' ? substr($extension, 1) : $extension;
             }
         }
 
