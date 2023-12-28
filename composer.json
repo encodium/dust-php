@@ -1,5 +1,5 @@
 {
-    "name": "bloafer/dust-php",
+    "name": "revolutionparts/dust-php",
     "description": "A templating engine for PHP based on Dust JS",
     "keywords": ["templating", "dust"],
     "homepage": "https://bloafer.github.io/dust-php",
